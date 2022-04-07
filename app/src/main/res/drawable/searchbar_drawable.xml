@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <inset
+            android:insetRight="10dp"
+            android:drawable="@drawable/ic_round_arrow_back_ios_24">
+        </inset>
+    </item>
+</layer-list>

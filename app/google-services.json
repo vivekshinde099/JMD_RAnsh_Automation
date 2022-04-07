@@ -1,0 +1,175 @@
+{
+  "project_info": {
+    "project_number": "407478491127",
+    "firebase_url": "https://jiopartnerit-bot-default-rtdb.firebaseio.com",
+    "project_id": "jiopartnerit-bot",
+    "storage_bucket": "jiopartnerit-bot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407478491127:android:f46a8c304080eb77c6c0f2",
+        "android_client_info": {
+          "package_name": "com.jio.ransh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407478491127-mrbc7i4dtosvagj1a8or8r0ets0iudkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbqhITkD8Bk3Klluoo1wlO8GmVv9jN3Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407478491127-mrbc7i4dtosvagj1a8or8r0ets0iudkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407478491127:android:9af08de850a95d4ec6c0f2",
+        "android_client_info": {
+          "package_name": "com.jio.ranshjmd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407478491127-bbmhd5v5fl1qcd52oj5e83h3ba8d1agp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jio.ranshjmd",
+            "certificate_hash": "8dd8544155fb3ea7f0777fc132fee4c6af0e31fa"
+          }
+        },
+        {
+          "client_id": "407478491127-kgj4rflk91icalrlupnp11ca9l5i4hge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jio.ranshjmd",
+            "certificate_hash": "598b4f11ef26e4c72bc1b0009137d8484c275c8b"
+          }
+        },
+        {
+          "client_id": "407478491127-mrbc7i4dtosvagj1a8or8r0ets0iudkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbqhITkD8Bk3Klluoo1wlO8GmVv9jN3Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407478491127-mrbc7i4dtosvagj1a8or8r0ets0iudkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407478491127:android:22728e477882988ec6c0f2",
+        "android_client_info": {
+          "package_name": "com.jio.ransho2a"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407478491127-mrbc7i4dtosvagj1a8or8r0ets0iudkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbqhITkD8Bk3Klluoo1wlO8GmVv9jN3Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407478491127-mrbc7i4dtosvagj1a8or8r0ets0iudkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407478491127:android:962d9ed53dcb34b9c6c0f2",
+        "android_client_info": {
+          "package_name": "kini.akshay.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407478491127-6uounacmfvr6lphrcckq7eict0sn6rah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kini.akshay.project",
+            "certificate_hash": "10a946d60d53bd57b7fca965bf6f6442b32a0d1e"
+          }
+        },
+        {
+          "client_id": "407478491127-8mruf8k8iblivfqf9pmhdd5vh6e8oagd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kini.akshay.project",
+            "certificate_hash": "89c1adf9eb92ae2226f9ad84f19b9f6fe3ab514d"
+          }
+        },
+        {
+          "client_id": "407478491127-i3in1vjfoam7mnd3d2nh0fhu7d56l1ja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kini.akshay.project",
+            "certificate_hash": "303a1aed7d06e97e5b54027000b9f885c123bcf6"
+          }
+        },
+        {
+          "client_id": "407478491127-lpdqeq1qfgvu9vf78ffkfrivbs96dg06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kini.akshay.project",
+            "certificate_hash": "195c30eba2ac2eeb7ce741bd0025236d6ecf4b8d"
+          }
+        },
+        {
+          "client_id": "407478491127-mrbc7i4dtosvagj1a8or8r0ets0iudkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbqhITkD8Bk3Klluoo1wlO8GmVv9jN3Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407478491127-mrbc7i4dtosvagj1a8or8r0ets0iudkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

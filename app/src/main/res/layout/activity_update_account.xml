@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".Toolbar.UpdateAccount">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:backgroundTint="@color/Voilet"
+                android:fontFamily="@font/jiotype_black"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/Black"
+                android:textSize="24sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                app:cardCornerRadius="75dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_baseline_account_circle_24" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/jiotype_medium"
+                android:text="Name"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/updateaccount_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Voilet"
+                android:cursorVisible="true"
+                android:editable="true"
+                android:fontFamily="@font/jiotype_medium"
+                android:maxLength="30"
+                android:layout_marginBottom="10dp"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/jiotype_medium"
+                android:text="PRM ID"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/updateaccount_prm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Voilet"
+                android:cursorVisible="true"
+                android:editable="true"
+                android:layout_marginBottom="10dp"
+                android:inputType="number"
+                android:fontFamily="@font/jiotype_medium"
+                android:maxLength="10"
+                android:text="" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/jiotype_medium"
+                android:text="Mobile number"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/updateaccount_mob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Voilet"
+                android:cursorVisible="false"
+                android:editable="false"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/jiotype_medium"
+                android:inputType="none"
+                android:text="" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/jiotype_medium"
+                android:text="Email"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/updateaccount_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Voilet"
+                android:cursorVisible="true"
+                android:editable="true"
+                android:fontFamily="@font/jiotype_medium"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/jiotype_medium"
+                android:text="Enter OTP"
+                android:visibility="gone"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/updateaccount_OTP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Voilet"
+                android:cursorVisible="true"
+                android:inputType="number"
+                android:maxLength="6"
+                android:editable="true"
+                android:visibility="gone"
+                android:fontFamily="@font/jiotype_medium"
+                android:text="" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="bottom">
+
+            <LinearLayout
+                android:id="@+id/sendmessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="5"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/ic_round_info_24" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiotype_medium"
+                    android:textAlignment="textStart"
+                    android:lineSpacingExtra="5sp"
+                    android:text="OTP Verification is required for updating the details"
+                    android:textAppearance="@style/label"
+                    android:textColor="@color/Black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            </RelativeLayout>
+
+
+                <Button
+                    android:id="@+id/updateaccount_updatebtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@drawable/green_button"
+                    android:backgroundTint="@color/Green"
+                    android:onClick="send_otp_forupdateprofile"
+                    android:text="Send OTP"
+                    android:textAllCaps="false"
+                    android:textColor="@color/secondButtonTextcolor"
+                    android:textStyle="bold" />
+            <Button
+                android:id="@+id/updateaccount_verifybtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/green_button"
+                android:backgroundTint="@color/Green"
+                android:onClick="verify_otp"
+                android:text="Verify OTP"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                android:textColor="@color/secondButtonTextcolor"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

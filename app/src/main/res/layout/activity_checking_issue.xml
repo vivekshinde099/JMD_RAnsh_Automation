@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:id="@+id/formlayouttoshow"
+    tools:context=".Checking_issue">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/finalticketid"/>
+
+    <TextView
+        android:id="@+id/issuenametxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Issue name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:fontFamily="@font/jiotype_bold"
+        android:visibility="gone"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/titletxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Issue name"
+        android:layout_margin="10dp"
+        android:textColor="@color/Black"
+        android:textSize="24sp"
+        android:fontFamily="@font/jiotype_black"
+        android:visibility="visible"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/sol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Solution:"
+        android:layout_margin="10dp"
+        android:textColor="@color/Black"
+        android:textSize="16sp"
+        android:layout_marginTop="24sp"
+        android:fontFamily="@font/jiotype_black"
+        android:visibility="visible"
+        android:layout_below="@+id/titletxt"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_below="@+id/sol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp">
+    <LinearLayout
+        android:layout_below="@+id/issuenametxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/issue_layout1"
+            android:id="@+id/unique1"/>
+
+        <include
+            android:id="@+id/unique2"
+            android:visibility="gone"
+            layout="@layout/issue_layout2" />
+
+        <include
+            android:id="@+id/unique3"
+            android:visibility="gone"
+            layout="@layout/issue_layout3" />
+
+        <include
+            android:id="@+id/unique4"
+            android:visibility="gone"
+            layout="@layout/issue_layout4" />
+
+        <include
+            android:id="@+id/unique5"
+            android:visibility="gone"
+            layout="@layout/issue_layout5" />
+
+
+        <include
+            android:id="@+id/twobtn1"
+            android:visibility="gone"
+            layout="@layout/issue_layout6" />
+
+        <include
+            android:id="@+id/twobtn2"
+            android:visibility="gone"
+            layout="@layout/issue_layout7" />
+        <include
+            android:id="@+id/unique7"
+            android:visibility="gone"
+            layout="@layout/issue_layout9" />
+
+        <include
+            android:id="@+id/unique6"
+            android:visibility="gone"
+            layout="@layout/issue_layout8" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+<TextView
+    android:id="@+id/seachbartext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone"/>
+
+
+
+
+
+</RelativeLayout>

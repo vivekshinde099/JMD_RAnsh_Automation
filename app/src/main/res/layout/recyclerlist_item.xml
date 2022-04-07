@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:id="@+id/recclerlistmainlayout"
+    >
+        <LinearLayout
+            android:id="@+id/rec_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:weightSum="2"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/texttag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main Issues"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textSize="16sp"
+                android:textColor="#505050"
+                android:layout_weight="2"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/jiotype_medium"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_round_keyboard_arrow_right_24"/>
+
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/rec_item"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/active_line2"
+        />
+</RelativeLayout>

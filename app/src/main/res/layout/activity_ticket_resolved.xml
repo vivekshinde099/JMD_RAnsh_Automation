@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ticketresults.Ticket_Resolved">
+
+    <TextView
+        android:id="@+id/issuenametxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Issue name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:fontFamily="@font/jiotype_medium"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/btnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Issue name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:fontFamily="@font/jiotype_medium"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/resolvertext"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/notresmainlinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="6"
+        android:padding="10dp"
+        android:layout_margin="10sp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jiotype_medium"
+            android:gravity="center"
+            android:text=""
+            android:layout_weight="1"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/_20sdp"/>
+        <ImageView
+            android:id="@+id/image_icon"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_vector_sadface"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/image_icon_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jiotype_black"
+            android:gravity="center"
+            android:text="Sorry for the inconvenience caused"
+            android:textColor="@color/Black"
+            android:layout_weight="1"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/image_icon_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jiotype_medium"
+            android:gravity="center"
+            android:text=""
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/finalbtticketno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="@font/jiotype_medium"
+            android:textSize="25sp"
+            android:text=""
+            android:visibility="gone"
+            android:gravity="center"
+
+            />
+        <TextView
+            android:id="@+id/finalbtticketno1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:fontFamily="@font/jiotype_medium"
+            android:textSize="25sp"
+            android:text=""
+            android:gravity="center"
+            android:layout_weight="0.3"
+            />
+
+
+        <TextView
+            android:id="@+id/feedback_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jiotype_medium"
+            android:text="@string/feedback"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="16sp"/>
+        <RadioGroup
+            android:id="@+id/group_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/poor"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:button="@null"
+                android:text="Poor"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/icon_sad"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="@color/Transparent"
+                />
+            <RadioButton
+                android:id="@+id/average"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:button="@null"
+                android:layout_marginRight="10dp"
+                android:text="Average"
+                android:background="@drawable/icon_average"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="@color/Transparent" />
+            <RadioButton
+                android:id="@+id/good"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:button="@null"
+                android:text="Good"
+                android:visibility="gone"
+                android:background="@drawable/icon_good"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="@color/Transparent" />
+            <RadioButton
+                android:id="@+id/excellent"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:button="@null"
+                android:text="Excellent"
+                android:background="@drawable/icon_excellent"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="@color/Transparent" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/Grey"
+            android:textSize="20sp"
+            android:backgroundTint="@color/white"
+            android:gravity="top|left"
+            android:drawableRight="@drawable/ic_round_short_text_24"
+            android:scrollbars="vertical"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:hint="Add your suggestions here"/>
+        <View
+            android:id="@+id/linewview"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/active_line"
+            />
+
+        <RelativeLayout
+            android:id="@+id/bottom_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="bottom"
+            >
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/green_button"
+                android:backgroundTint="@color/Green"
+                android:text="Give Feedback"
+                android:textAllCaps="false"
+                android:textColor="@color/secondButtonTextcolor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/homepage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Green"
+                android:text="Go to Homepage"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:onClick="go_to_homepage"
+                android:background="@drawable/green_button"
+                android:textColor="@color/secondButtonTextcolor"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+</ScrollView>

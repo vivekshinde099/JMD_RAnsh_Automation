@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Bottomnavigationbar.LanguageSelector">
+
+
+    <TextView
+        android:id="@+id/select_your"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_your"
+        android:textSize="24sp"
+        android:fontFamily="@font/jiotype_black"
+        android:lineSpacingExtra="4sp"
+        android:textColor="@color/Black"
+        android:textAlignment="textStart"
+        />
+    <TextView
+        android:id="@+id/current_language"
+        android:layout_below="@+id/select_your"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:fontFamily="@font/jiotype_medium"
+        android:lineSpacingExtra="4sp"
+        android:textColor="@color/Black"
+        android:textAlignment="textStart"
+        />
+
+    <ListView
+        android:layout_below="@+id/current_language"
+        android:id="@+id/lang_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

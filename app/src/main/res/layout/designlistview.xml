@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/subissecard1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/subissuetext1"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/_15sdp"
+        android:layout_height="wrap_content"></TextView>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

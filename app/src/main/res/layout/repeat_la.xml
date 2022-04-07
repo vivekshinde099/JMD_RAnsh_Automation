@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:elevation="@dimen/_50sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/step1txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step1"
+            android:fontFamily="@font/jiotype_black"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/checkingissue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jiotype_medium"
+            android:textSize="@dimen/_12sdp"
+            android:text="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/checkingissuedes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/jiotype_medium"
+            android:textSize="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:text="" />
+
+
+
+        <Switch
+            android:id="@+id/Wifi_switch"
+            android:visibility="gone"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/jiotype_black"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_backgrounds"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/Red"
+            android:textColor="@color/white"
+            android:layout_gravity="left"
+            android:text="Next" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

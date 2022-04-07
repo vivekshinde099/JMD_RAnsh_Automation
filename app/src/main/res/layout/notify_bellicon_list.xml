@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="1dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/notify_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:background="@drawable/shadowfile"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:elevation="20dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16sp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_round_brightness_1_24"/>
+            <TextView
+                android:id="@+id/notify_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akshay"
+                android:textSize="16sp"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/jiotype_bold"
+                />
+            <TextView
+                android:id="@+id/notify_position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akshay"
+                android:textSize="16sp"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="5dp"
+                android:visibility="gone"
+                android:fontFamily="@font/jiotype_bold"
+                />
+
+            <TextView
+                android:id="@+id/notify_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akshay"
+                android:textSize="16sp"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/Black_60"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/jiotype_bold"
+                />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

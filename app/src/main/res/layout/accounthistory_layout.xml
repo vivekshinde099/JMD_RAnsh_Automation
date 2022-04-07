@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:id="@+id/recclerlistmainlayout"
+    >
+    <androidx.cardview.widget.CardView
+        android:id="@+id/TICKETTAGcardyaout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardCornerRadius="15dp"
+        android:background="@drawable/shadowfile"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:elevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            />
+            <TextView
+                android:id="@+id/TICKETTAG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akshay"
+                android:textSize="20sp"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/jiotype_bold"
+                />
+z
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

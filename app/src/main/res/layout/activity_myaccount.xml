@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".Toolbar.Myaccount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:weightSum="10"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="@color/Voilet"
+            android:fontFamily="@font/jiotype_black"
+            android:text=""/>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="75dp">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/ic_baseline_account_circle_24"
+                            android:layout_gravity="center"/>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/myaccount_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Black"
+                    android:textSize="24sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Voilet"
+                    android:fontFamily="@font/jiotype_black"
+                    android:text="AKSHAYK"/>
+
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PRM ID"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/jiotype_medium"/>
+                <TextView
+                    android:id="@+id/myaccount_prm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Black"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Voilet"
+                    android:fontFamily="@font/jiotype_bold"
+                    android:text="066123456792"/>
+
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile number"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:fontFamily="@font/jiotype_medium"/>
+                <TextView
+                    android:id="@+id/myaccount_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Black"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Voilet"
+                    android:fontFamily="@font/jiotype_bold"
+                    android:text="066123456792"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email ID"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:fontFamily="@font/jiotype_medium"/>
+                    <TextView
+                        android:id="@+id/myaccount_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/Black"
+                        android:textSize="16sp"
+                        android:layout_weight="1"
+                        android:inputType="textEmailAddress"
+                        android:backgroundTint="@color/Voilet"
+                        android:fontFamily="@font/jiotype_bold"
+                        android:text="askhay.kini@ril.com"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="5"
+            android:gravity="bottom"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/sendmessage"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:onClick="open_reopen_layout"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/green_button_stroke"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ic_round_edit_24"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edit Profie"
+                    android:textAppearance="@style/label"
+                    android:lineSpacingExtra="5sp"
+                    android:textSize="16sp"
+                    android:textColor="@color/DarkLightGreen"
+                    android:fontFamily="@font/jiotype_medium"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

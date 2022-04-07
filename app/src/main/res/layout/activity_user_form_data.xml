@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".UserFormData">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_centerInParent="true">
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ellipse_231"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="24dp"
+            android:onClick="backbutton"
+            android:backgroundTint="#A6000000"
+            android:background="@drawable/ic_baseline_arrow_back_ios_24"
+            />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/clock_logo"/>
+
+        </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/you_are_jus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/jiotype_black"
+        android:text="@string/you_are_jus"
+        android:textAppearance="@style/you_are_jus"
+        android:lineSpacingExtra="4sp"
+        android:padding="@dimen/_10sdp"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/register_on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/register_on"
+        android:textAppearance="@style/register_on"
+        android:fontFamily="@font/jiotype_medium"
+        android:lineSpacingExtra="2sp"
+        android:padding="20dp"
+        android:gravity="center_horizontal|center_vertical"
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/jiotype_medium"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:textSize="16sp"/>
+
+
+        <EditText
+                android:id="@+id/getmasterdataname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your name"
+                android:inputType="text"
+                android:ems="10"
+                android:textColor="@color/Black"
+                android:fontFamily="@font/jiotype_medium"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:maxLength="30"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:backgroundTint="@color/white"
+                android:textSize="@dimen/_12sdp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/active_line"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRM/Store ID"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/jiotype_medium"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/getmasterdataprm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="PRM/Store ID"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/jiotype_medium"
+            android:maxLength="10"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:backgroundTint="@color/white"
+            android:textSize="@dimen/_12sdp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/active_line"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POS ID"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/jiotype_medium"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/getmasterdatapos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="POS ID"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/jiotype_medium"
+            android:maxLength="10"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:backgroundTint="@color/white"
+            android:textSize="@dimen/_12sdp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/active_line"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile number"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/jiotype_medium"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/getmasterdatamobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:backgroundTint="@color/white"
+            android:editable="false"
+            android:fontFamily="@font/jiotype_medium"
+            android:hint="Mobile number"
+            android:inputType="none"
+            android:maxLength="10"
+            android:textColor="@color/Black_60"
+            android:textSize="@dimen/_12sdp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/active_line"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email ID"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/jiotype_medium"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/getmasterdataemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email ID"
+                android:textColor="@color/Black"
+                android:fontFamily="@font/jiotype_medium"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:backgroundTint="@color/white"
+                android:textSize="@dimen/_12sdp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/active_line"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zone"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/jiotype_medium"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:textSize="16sp"/>
+        <Spinner
+            android:id="@+id/getmasterdatazone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:background="@drawable/style_spinner2"
+
+            />
+
+        <TextView
+            android:id="@+id/zone_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="zone_text"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/Black"
+            android:visibility="gone"
+            android:fontFamily="@font/jiotype_medium"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textSize="@dimen/_12sdp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/active_line"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Circle"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/jiotype_medium"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:textSize="16sp"/>
+        <Spinner
+            android:id="@+id/getmasterdatacircle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:background="@drawable/style_spinner2"
+            />
+
+        <TextView
+            android:id="@+id/ciecle_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cirle_text"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/Black"
+            android:visibility="gone"
+            android:fontFamily="@font/jiotype_medium"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textSize="@dimen/_12sdp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/active_line"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make/Model"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/jiotype_medium"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/getmasterdatamakemodel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:hint="Make/model"
+                android:editable="false"
+                android:textColor="@color/Black"
+                android:fontFamily="@font/jiotype_medium"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:backgroundTint="@color/white"
+                android:textSize="@dimen/_12sdp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/active_line"
+            />
+        <Button
+            android:id="@+id/masterdatasubbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:fontFamily="@font/jiotype_medium"
+            android:textSize="@dimen/_10sdp"
+            android:background="@drawable/green_button"
+            android:backgroundTint="@color/Green"
+            android:textColor="@color/secondButtonTextcolor"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:textAppearance="@style/label"
+            />
+
+
+    </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

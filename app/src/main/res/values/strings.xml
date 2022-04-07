@@ -1,0 +1,327 @@
+<resources>
+    <string name="app_name">R-Ansh beta</string>
+
+    <string-array name="Issue_list">
+        <item>Agent Authentication Failed from OID</item>
+        <item>Customer Image Capture issue</item>
+        <item>Cannot Perform Digital KYC as agent photo is not registered</item>
+        <item>Gst Table Does not exist</item>
+        <item>MAC ID cannot be left blank</item>
+        <item>Device time not match with server time</item>
+        <item>Recharge Reversal</item>
+        <item>Tendor not configured</item>
+        <item>Error code 12 , Failed to connect to server</item>
+        <item>Registration OTP Failed</item>
+        <item>Session Expired</item>
+        <item>User Identity Cannot be established</item>
+        <item>Device Of Store Cannot Exceed for 998</item>
+        <item>Cash Tender Already Used/Complete Action Using</item>
+        <item>Error Code 01: E-Sim not allowed</item>
+        <item>Coupon already redeemed on POS</item>
+        <item>Digital KYC - Spoofing Detected</item>
+        <item>Internal Server Error-500</item>
+        <item>Error 413 request entity too large</item>
+        <item>Connection Refused</item>
+        <item>Empty response from server</item>
+        <item>Failed for online transaction,Response:Internal ser</item>
+        <item>Failed for online transaction,Response:Card declined</item>
+        <item>Invalid Transaction ID</item>
+        <item>Pincode Data is Empty,please do DATA sync</item>
+        <item>Please do Data Sync</item>
+        <item>Plan Code Invalid/Expired</item>
+        <item>Failed to upload XML file</item>
+        <item>Plan Code Invalid/Expired</item>
+        <item>Incorrect EJ ticket Format</item>
+        <item>Invalid Document. Please check and try again</item>
+        <item>Item not found</item>
+        <item>Document File path is null,please check</item>
+        <item>Blank screen while selecting plan of Recharge</item>
+        <item>Something went wrong,Response:No Data</item>
+        <item>Page Cannot be display</item>
+        <item>Plans not visible</item>
+        <item>Agent live pic does not match with the agent reference photo</item>
+        <item>Data not Found</item>
+        <item>Data not found please check Pin Code you have entered</item>
+        <item>Bad Request</item>
+        <item>Failed to upload: AGENT_CONSENT.PDF Do you want to Retry</item>
+        <item>Your device is not compatible</item>
+        <item>OTP could not be sent, Incorrect Agent Mobile</item>
+        <item>Name Not Match</item>
+        <item>Duplicate ICCID</item>
+        <item>Recharge - Buffering/Redirecting to Login screen</item>
+        <item>Name Not Match(Photo Registration Process)</item>
+        <item>Jio Pos Plus - Buffering/Redirecting to Login screen</item>
+        <item>Digital KYC not visible in JPP Menu</item>
+        <item>Postpaid Sim refund issue</item>
+        <item>Sim Swap process</item>
+        <item>ICCID Circle code does not match with Agent Circle code</item>
+        <item>SSL Validation Failed/Pinning failed/Handshake error</item>
+        <item>Developer Operation Failure</item>
+        <item>Emulator check failure</item>
+        <item>Digital KYC Activation Procedure</item>
+        <item>Jio Phone refund process</item>
+        <item>OID Data Update - Email/Mobile number</item>
+        <item>Store Code Mis-Match</item>
+        <item>I want to know my POS ID</item>
+        <item>User not found</item>
+        <item>RR - Store Code Mis-Match</item>
+
+    </string-array>
+
+    <string name="Issue_list1">
+        <item>Others..</item>
+    </string>
+
+    <string name="Welcome_jiobot">Welcome to R-Ansh</string>
+    <string name="Welcome_jiobot2">Your one stop shop for all Jio Pos Plus issues</string>
+    <string name="Welcome_jiobot3">Please enter below details for further assistance</string>
+    <string name="Welcome_jiobot4">(One Time Process)</string>
+
+    <string name="category_front_others">Others</string>
+    <string name="Version_Update">Click on link to checked Version updated or not <a href="https://play.google.com/store/apps/details?id=com.jio.jpp1">Click here</a></string>
+
+    <string name="Submit_btn">Submit</string>
+    --------------------------------------------------------------------
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_firebase_test">FirebaseTest</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="feedback">Kindly provide your valuable feedback so that we can assist you better in the future.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="issue_name">Issue Name</string>
+    <string name="burger_welcom_text">How can I help you? Choose from below or type keyword!</string>
+    <string name="welcome_page">Hello!</string>
+    <string name="version_textview" />
+    <string name="red_buton_jpos">Jio Pos Plus</string>
+    <string name="menu_myaccount">My Account</string>
+    <string name="menu_updateaccount">Update Account</string>
+    <string name="menu_history">History</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="data_delta_sync">Need to do Data/Delta Sync from Jio Pos Plus application,Please click on below button</string>
+
+    <string name="clear_cache_clear_data">Need to Delete Cache and Data of Jio Pos Plus application,Please click on below button</string>
+    <string name="rpos_jpos_folder_delete">Need to Delete RPOS JPOS folders, Please click on below button</string>
+    <string name="youtube_data">To check network connectivity kindly click on below link, If video does not starts, kindly check your network signal . <a href="https://youtu.be/l7L7uAHIUdA\">Click here</a><font color='#FFFFFF'>LINK2</font></string>
+    <string name="upload_error_screenshot_btn">Upload</string>
+    <string name="kindly_upload_error_snapshot">Kindly Upload Error Snapshot\nIf Available</string>
+    <string name="get_solution">Get Solution</string>
+    <string name="if_not_available_click_below_to_proceed_manually">If Snapshot not Available click Next to proceed manually</string>
+    3
+    <string name="MOP_for__first_time">Are you using this MOP for the first time ?</string>
+    <string name="MOP_second_line">If your Employee ID Starts with 5/6, Kindly submit the request on servicedesk.ril.com , If you are logging on the portal for the First time,then your Employee ID is your username and password.For UPI related problem
+        Submit the request by selecting IT Apps Option > Select AREA-POS and Category ONLINE-EFT . </string>
+    <string name="MOP_third_line">If your Employee ID starts with 068XXXXXXX then kindly connect with L1 to submit query on servicedesk.ril.com . </string>
+    <string name="camera_text_1">Please take the Image in correct format : </string>
+
+    -------------------------------------------------------------------
+    <string name="welcome_to">Welcome to</string>
+    <string name="atam_nirbha">Atam Nirbhar Self Heal</string>
+    <string name="enter_your_">Enter your mobile number</string>
+    <string name="input_text">Mobile number</string>
+    <string name="vector">/</string>
+    <string name="slidertext2">One-stop solution for \nall your queries</string>
+    <string name="all_your_do">All your doubts and issues regarding JioPOS \nPlus can now be solved by you!</string>
+    <string name="assistance_">24/7 Assistance \nGuaranteed</string>
+    <string name="get_your_qu">Get your queries resolved on your own with \nme, anytime anywhere!</string>
+    <string name="support_in_">Support in\n7 Regional Languages</string>
+    <string name="now_get_ass">Now get assistance in your language of \nchoice along with latest updates!</string>
+    <string name="enter_your_otp">Enter your OTP</string>
+    <string name="you_are_jus">You are just a step away!</string>
+    <string name="register_on">Register once to use Jio Ansh app anytime anywhere \nfor resolving all type of technical queries</string>
+    <string name="title_activity_main_home_page">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_resolutions">Language</string>
+    <string name="title_tickets">Tickets</string>
+    <string name="title_exit">Exit</string>
+    <string name="title_menu">Menu</string>
+    <string name="upload_scre">Kindly Upload the screenshot of the error</string>
+    <string name="label">Upload</string>
+    <string name="no_worries_">No worries, we will guide you</string>
+    <string name="help_us_ide">Help us identify the issue</string>
+    <string name="select_from">Select from below issue categories</string>
+    <string name="modal_title">Kindly check now and confirm</string>
+    <string name="open_jiopos_plus">Ok</string>
+    <string name="is_issue_resolved">Hope your query is resolved ?</string>
+    <string name="reach_out_t">Reach out to us in case of any query regarding the ticket</string>
+    <string name="select_your">Select your preferred language</string>
+    <string name="your_comment">Write your comment</string>
+    <string name="send_message">Send message</string>
+    <string name="send_us_a_message">Send us a message</string>
+    <string name="terms_condition"><u>Terms and Conditions</u></string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="dont_have_screenshot_click_here"><u>Dont have Screenshot? Click here</u></string>
+    <string name="lets_resolve_query">Let\'s resolve \nyour query</string>
+    <string name="title_terms">Terms and Conditions for R Ansh</string>
+
+    <string name="article1_terms">1. SCOPE</string>
+    <string name="para1">1.1 R Ansh is a mobile application (“Application”), made available by Jio Platforms Limited and/or its affiliates (“Company”, “we,” “us” and “our”) located at 101, Saffron, Nr. Centre Point, Panchwati 5 Rasta, Ambawadi, Ahmedabad, Gujarat - 380006 India.
+        \n1.2 The Application is designed to help employees and partners associated with the Company and/ or its affiliates. The Application allows Jio, mobility and FTTX partners to fix Jio POS Plus related issues through BOT services. The user’s issues/ queries can be solved without human intervention through this self heal feature of the Application. The services mainly include (i) multilingual support with seven languages; ii) information broadcasting (iii) capture data for analytics and dashboards; (iv) automated partner IT support structure (v) and any other services provided by the Company from time to time (“Services”) on any compatible smart phones powered by Android (“Device”).
+\n 1.3 Your (“you”, “your” or “user”) use of the Application is subject to these terms and conditions (“Terms”).
+\n 1.4 Your use of the Application requires that you agree to these Terms and the privacy policy of the Application. By registering or signing up to the Application, or otherwise having access to, receiving, and/or using the Application, you acknowledge to have read, understood and you consent to be governed and bound by these Terms and the privacy policy of the Application. If you do not understand the Terms or the privacy policy of the Application, or do not accept any part of them, then you should not use the Application.
+\n 1.5 These Terms should be read in consonance with your enterprise employment terms and conditions.
+\n 1.6 The Terms are an electronic record in terms of the Information Technology Act, 2000 (as amended / re-enacted) (“IT Act") and rules thereunder, and is published in accordance with the provisions of Rule 3 (1) of Information Technology (Intermediaries Guidelines and Digital Media Ethics code) Rules, 2021 which mandates for publishing of rules and regulations, privacy policy and terms of use for access or usage of Application. This electronic record is generated by a computer system and does not require any physical or digital signatures.</string>
+
+    <string name="article2_terms">2. Privacy and Protection of Personal Information:</string>
+    <string name="para2">2.1 Please refer to the privacy policy of the Application available [here].
+\n 2.2 Please note that your use of the Application or Services on your Device and download thereof from Google play store may be subject to the respective privacy policies as may be published or made available by the Device and Google play store.</string>
+
+    <string name="article3_terms">3. Modifications</string>
+    <string name="para3">3.1 Modifications of the Terms: The Company reserves the right to change the Terms under which the Services are offered, including but not limited to the charges, if any, associated
+with the use of the Services. The Terms may be further modified based on changes in the business, legal and regulatory requirements and will be updated online. We will make communicate any changes to these Terms to you. You are encouraged to periodically visit this page to review these Terms and any changes to it.
+\n 3.2 Modification of Services: The Company reserves the right to add, modify or delete any content or features available in the Services at any time at its sole discretion.
+</string>
+
+    <string name="article4_terms">4. Links to Third Party Sites and Applications:</string>
+    <string name="para4">4.1 The Application may contain links to other web sites/applications (Linked Sites). The Linked Sites are not under the control of the Company and the Company is not responsible for the contents of any Linked Site, including without limitation any link contained in a Linked Site, or any changes or updates to a Linked Site or any information transmitted on a Linked Site. The inclusion of any link does not imply endorsement by the Company of the site or any association with its operators.
+\n 4.2 Any dealings with third parties (including advertisers) included within or available via a link from the Application or participation in promotions, including the delivery of and the payment for goods and services, and any other terms, conditions, warranties or representations associated with such dealings or promotions, are solely between you and the advertiser or other third party. The Company shall not be responsible or liable for any part of any such dealings or promotions.
+\n 4.3 You acknowledge and agree that the use of any Linked Sites is governed by such third party’s terms of use, license agreement, privacy policy, or other such agreement. The Company disclaims any and all responsibility for any disclosure of information or any other practices of any third party. The Company expressly disclaims any warranty with respect to your personal or other information that may be collected, processed, shared or retained by any third party.</string>
+
+    <string name="article5_terms">5. Intellectual Property Rights:</string>
+    <string name="para5">5.1 The Company shall own title, interest and rights, including all related intellectual property rights, in/of the Application including but not limited to object code of the Application, features of services, which is/are protected by the applicable laws except the content owned by the user. You acknowledge that such ownership shall include all intellectual property rights arising from any suggestions, enhancement requests, recommendations or other information provided by the user, whether in the course of use of the Application, your device or otherwise.</string>
+
+    <string name="article6_terms">6. Use Limitations:</string>
+    <string name="para6">6.1 Services offered by the Application are intended solely for the purpose of availing Services provided by the Application. You may not distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information, software, products or Services offered by the Application.
+\n 6.2 As a condition of your use of the Application, you warrant to the Company that you will not use the Application for any purpose that is commercial, unlawful or prohibited by these Terms. You may not use the Application in any manner which could damage, disable,
+overburden or impair the Services or interfere with any other partys use and enjoyment of the Application. You are not entitled to use any kind of measures, mechanisms or tools (software or hardware) that could interfere with the functioning of the Application or any of its Services.
+\n 6.3 You are not entitled to use any kind of measures, mechanisms or tools (software or hardware) that could interfere with the functioning of the Application or any of its Services.
+\n 6.4 You may not use the Services and or Application if you are under the age of 18 years.</string>
+
+    <string name="article7_terms">7. General</string>
+    <string name="para7">7.1 You may be required to register in order to access Application using the means and methodology as provided by the Company from time to time.
+\n 7.2 By using our Services you hereby agree to ensure that the explicit prohibitions mentioned in section 7.4 are at all times adhered to.
+\n 7.3 Use Restriction: You must not access the Application if you are a person who is either barred or otherwise legally prohibited from receiving or using the Service or any Services under the laws of India.
+\n 7.4 You shall not host, display, upload, modify, publish, transmit, update or share any information which:
+\n a) Belongs to another person and to which you do not have any right to;
+\n b) Is grossly harmful, harassing, blasphemous, defamatory, obscene, pornographic, pedophilic, libelous, invasive of another’s privacy, hateful, or racially, ethnically objectionable, disparaging, relating or encouraging money laundering or gambling or otherwise unlawful in any manner whatsoever; or unlawfully threatening or unlawfully harassing including but not limited to “indecent representation of women” within the meaning of the Indecent Representation of Women (Prohibition) Act 1986;
+\n c) Is misleading in any way;
+\n d) Is patently offensive to the online community, such as sexually explicit content, or content that promotes obscenity, paedophilia, racism, bigotry, hatred or physical harm of any kind against any group or individual;
+\n e) Harassing or advocates harassment of another person;
+\n f) Involves the transmission of “junk mail”, “chained letters”, or unsolicited mass mailing or “spamming”;
+\n g) Promotes illegal activities or conduct that is abusive, threatening, obscene, defamatory or libelous;
+\n h) Infringes upon or violates any third party’s rights (including, but not limited to, intellectual property rights, rights of privacy or rights of publicity);
+\n i) Promotes an illegal or unauthorized copy of another person’s copyrighted work;
+\n j) Provides instructional information about illegal activities such as making and/ or buying illegal weapons, violating someone’s privacy, or providing or creating computer viruses;
+\n k) Solicits gambling or engages in any gambling activity which we in our sole discretion believe is or could be construed to be as illegal;
+\n l) Harms minors in any way;
+\n m) Violates any law for the time being in force;
+\n n) Impersonates another person;\n o) Contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer resource; or contains any trojan horses, worms, time bombs, cancelbots, easter eggs or other computer programming routines that may damage, detrimentally interfere with, diminish value of, surreptiously intercept or expropriate any system, data or personal information;
+\n p) Threatens the unity, integrity, defence, security or sovereignty of India, friendly relations with foreign states, or public order or causes incitement to the commission of any cognizable offense or prevents investigation of any offense or is insulting any other nation.
+        \n 7.5 Services may be made available for free of cost or for a specified cost as may be decided by the Company from time to time
+\n 7.6 Third-Party Fees: You may incur access or data fees from third parties (such as your internet provider or mobile carrier) in connection with your use of Services and of Application. You are solely responsible for all such fees.
+\n 7.7 Updates: Services originating from the Application may communicate with the servers from time to time to check for available updates to the Services and to the functionality of the Application, such as bug fixes, patches, enhanced functions, missing plug-ins and new versions (collectively, "Updates"). Your use of the Services you have installed requires that you have agreed to receive such automatically requested Updates.
+\n 7.8 Accuracy of Information: You agree that the information entered by you while profile creation/updation or using any of Services is true, current, complete and accurate in all respects. The Company is not responsible for any losses arising out of discrepancy in your data. You are solely responsible for maintaining confidentiality and security of your user account and for all activities that occur on or through your user account. The Company is not responsible for any losses arising out of the unauthorized use of your user account.
+\n 7.9 The user agrees and acknowledges that the Company shall send commercial communication to the user in relation to the Services availed by the Company.</string>
+
+    <string name="article8_terms">8. LIABILITY DISCLAIMER</string>
+    <string name="para8">8.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE COMPANY BE LIABLE TO YOU FOR ANY SPECIAL, INCIDENTAL, INDIRECT, PUNITIVE OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF USE, LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF, OR INABILITY TO USE OR ACCESS, THE APPLICATION OR FOR ANY SECURITY BREACH OR ANY VIRUS, BUG, UNAUTHORIZED INTERVENTION, DEFECT, OR TECHNICAL MALFUNCTIONING OF THE APPLICATION, WHETHER OR NOT FORESEEABLE OR WHETHER OR NOT THE COMPANY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR BASED ON ANY THEORY OF LIABILITY, INCLUDING BREACH OF CONTRACT OR WARRANTY, NEGLIGENCE OR OTHER TORTIOUS ACTION, OR ANY OTHER CLAIM ARISING OUT, OF OR IN CONNECTION WITH, YOUR USE OF, OR ACCESS TO, THE APPLICATION OR THE CONTENT. FURTHER, THE COMPANY SHALL NOT BE LIABLE TO YOU FOR ANY TEMPORARY DISABLEMENT, PERMANENT DISCONTINUANCE OR MODIFICATION OF THE APPLICATION BY THE COMPANY OR FOR ANY CONSEQUENCES RESULTING FROM SUCH ACTIONS.
+\n 8.2 YOU SHALL BE SOLELY RESPONSIBLE FOR OBTAINING AND MAINTAINING ANY EQUIPMENT AND ANCILLARY SERVICES (INCLUDING THE PAYMENT OF ANY ADDITIONAL FEES THEREFORE) REQUIRED TO CONNECT TO, ACCESS OR OTHERWISE USE THE SERVICES, INCLUDING, WITHOUT LIMITATION, MODEMS, HARDWARE, SERVERS, SOFTWARE, OPERATING SYSTEMS, NETWORKING, WEB SERVERS, INTERNET AND TELEPHONE SERVICE (COLLECTIVELY, EQUIPMENT). YOU WILL ALSO BE RESPONSIBLE FOR MAINTAINING THE SECURITY OF THE EQUIPMENT AND FOR ALL USES OF THE EQUIPMENT WITH OR WITHOUT YOUR KNOWLEDGE OR CONSENT.
+\n 8.3 YOU ARE SOLELY RESPONSIBLE FOR THE CONTENT AND OTHER MATERIALS YOU TRANSMIT THROUGH THE SERVICE OR SHARE WITH OTHER USERS OR RECIPIENTS. YOU WILL NOT TRANSMIT ANY CONTENT THAT YOU DID NOT CREATE OR THAT YOU DO NOT OWN ALL RIGHT, TITLE AND INTEREST IN AND TO, INCLUDING, WITHOUT LIMITATION, ALL COPYRIGHT AND RIGHTS OF PUBLICITY CONTAINED THEREIN.
+\n 8.4 THE COMPANY AND/OR ITS RESPECTIVE AFFILIATES MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY, RELIABILITY, AVAILABILITY, TIMELINESS AND ACCURACY OF THE INFORMATION, SOFTWARE AND SERVICES AND RELATED CONTENT CONTAINED ON THE APPLICATION FOR ANY PURPOSE. ALL SUCH INFORMATION, SOFTWARE AND SERVICES AND RELATED CONTENT ARE PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND. THE COMPANY AND/OR ITS RESPECTIVE SUPPLIERS HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO THIS INFORMATION, SOFTWARE, AND SERVICES AND RELATED CONTENT, INCLUDING ALL IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT.
+\n 8.5 YOU SPECIFICALLY AGREE THAT THE COMPANY SHALL NOT BE RESPONSIBLE FOR UNAUTHORISED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA, ANY MATERIAL OR DATA SENT OR RECEIVED OR NOT SENT OR RECEIVED, OR ANY TRANSACTIONS ENTERED INTO THROUGH THE APPLICATION. YOU SPECIFICALLY AGREE THAT THE COMPANY IS NOT RESPONSIBLE OR LIABLE FOR ANY THREATENING, DEFAMATORY, OBSCENE, OFFENSIVE OR ILLEGAL SERVICES OR CONDUCT OF ANY OTHER PARTY OR ANY INFRINGEMENT OF ANOTHERS RIGHTS, INCLUDING INTELLECTUAL PROPERTY RIGHTS. YOU SPECIFICALLY AGREE THAT THE COMPANY IS NOT RESPONSIBLE FOR ANY SERVICES SENT USING AND OR INCLUDED IN THE APPLICATION BY ANY THIRD PARTY.</string>
+
+    <string name="article9_terms">9. TERMINATION (TEMPORARY AND PERMANENT DISABLEMENT):</string>
+    <string name="para9">9.1 Unless otherwise provided in these Terms, the Services offered to you may be terminated by the Company without assigning any reasons at any time at the sole discretion of the Company. Upon termination / suspension, you shall not have the right to use or access the Application/Services.
+\n 9.2 The Company reserves the right to suspend and/ or terminate your access to the Services in case of any non-adherence to these Terms and Conditions by you.</string>
+
+    <string name="article10_terms">10. GOVERNING LAW AND DISPUTE RESOLUTION:</string>
+    <string name="para10">10.1 These terms and conditions are governed and construed in accordance with the laws of India. The courts in Mumbai shall have exclusive jurisdiction to hear disputes arising out of these terms.</string>
+
+    <string name="article11_terms">11. FORCE MAJEURE:</string>
+    <string name="para11">11.1 The Company shall be under no liability whatsoever in the event of non-availability of any portion of the Application or subscribed content occasioned by act of God, war, disease, revolution, riot, civil commotion, strike, lockout, flood, fire, failure of any public utility, manmade disaster, infrastructure failure or any other cause whatsoever beyond the control of the Company.
+</string>
+
+    <string name="article12_terms">12. SEVERABILITY:</string>
+    <string name="para12">12.1 If any of the provisions of these Terms are deemed invalid, void, or for any reason unenforceable, that part of these Terms will be deemed severable and will not affect the validity and enforceability of any remaining provisions of these Terms.</string>
+
+    <string name="article13_terms">13. CONTACT DETAILS:</string>
+    <string name="para13"> [partnerit@jio.com]</string>
+
+    //------------------------------------ Privacy
+    policies--------------------------------------------
+
+    <string name="title_privacy">R Ansh PRIVACY POLICY</string>
+    <string name="article1_privacy">1. Scope:</string>
+    <string name="para1_privacy">R Ansh (hereinafter referred to as “App”, “we”, “our”, “us”) is committed to protecting and respecting your privacy.
+\n\n1.1. This policy (this “Privacy Policy”), together with the Terms and Conditions of the App outlines the App’s privacy practices regarding the collection, use and safeguard of your information through the App and the services offered thereupon.
+\n\n1.2. By using the App or registering or signing up for the App and submission of personal information; or if you are a minor, the submission of your personal information either by your parents (or your guardian) or by you with the permission of your parents (or guardian) to the App will be deemed as your acceptance of this Privacy Policy.
+\n\n1.3. The Terms are an electronic record in terms of the Information Technology Act, 2000 (as amended / re-enacted) (“IT Act") and rules thereunder, and is published in accordance with the provisions of Rule 3 (1) of the Information Technology (Guidelines for Intermediaries and Digital Media Ethics Code) Rules, 2021, which mandates for publishing of rules and regulations, privacy policy and terms of use for access or usage of App. This electronic record is generated by a computer system and does not require any physical or digital signatures.
+</string>
+
+    <string name="article2_privacy">2. Changes to the Privacy Policy:</string>
+    <string name="para2_privacy">2.1 We are obligated to protect your information in accordance with applicable laws, and regulations.
+        \n\n2.2 This Privacy Policy is subject to modification based on changes in the business, legal and regulatory requirements and will be updated online. We will notify you whenever any change to the Privacy Policy are made. You are encouraged to periodically visit this page to review the Privacy Policy and any changes to it.</string>
+
+    <string name="article3_privacy">3. Third Party Services:</string>
+    <string name="para3_privacy">Please note that your mobile service provider, internet service provider, mobile operating system provider, third party applications including the applications pre-loaded on your smart phones powered by Android platform or customized Android ROM (“Device”), websites that you access, third party operators may also collect, use and share information about you and your usage. We cannot control how these third parties collect, use, share or secure this information. For information about third-party privacy practices, please consult their respective privacy policies.
+</string>
+
+    <string name="article4_privacy">4. Personal Information we collect:</string>
+    <string name="para4_privacy">4.1 Personal information is defined as information that can be used to identify you and may include details such as your name, age, gender, contact information, products and services you are interested in or require more information about. Insofar as sensitive personal information is concerned, it will carry the meaning as may be defined by applicable laws from time to time.
+\n\n4.2 The following is the manner in which we collect, use, share and retain personal information:
+\n\4.2.1 Collection:
+\n4.2.1.1 You agree that the App may collect such personal information, whenever relevant, to help providing you with information and to complete any transaction or provide any product you have requested or authorized. You also consent to the collection of certain personal information in the course of your applying for the products and/or services.
+\n\n4.2.2 Usage:
+\n4.2.2.1 The App seeks this information either to (i) validate and process your request for the services of the App or information; (ii) to improve the quality of the App; (iii) to assist you to determine which services best meet your needs; or (iv) to facilitate our internal business operations, including the fulfilment of any legal and regulatory requirements; or (v) to provide you with recommendation about services you may be interested in, based on your use of the App; or (vi) to provide you with marketing communications and advertising that the App believe may be of interest of you ;or (vii) to facilitate your purchases .
+\n\n4.2.3 Sharing:
+\n4.2.3.1 We may disclose personal information to our affiliates when necessary to perform services on our behalf or on your behalf, to provide display advertising and promotional services, providing search results and links (including paid listings and links), providing customer service etc.
+\n\n4.2.3.2 We may also share personal information with external organizations or individuals if we believe that access, use, preservation or disclosure of the information is reasonably necessary to: (a) meet any applicable law, regulation, legal process or enforceable governmental request; (b) detect, prevent or otherwise address fraud, security or technical issues; (c)protect against harm to the rights, property or safety of our customers or the public, as required or permitted by law.
+\n\n4.2.4 Retention:
+\n4.2.4.1 The information so collected shall be retained only for a limited duration necessary to fulfil the purposes outlined herein unless a longer retention period is required or permitted by law and only for the purposes defined above. Once the purpose is achieved, all personal information is deleted in a safe and secure mode.</string>
+
+    <string name="article5_privacy">5. Non-Personal Information:</string>
+    <string name="para5_privacy">5.1 Non-personal information is defined as any data that does not personally identify you and may include unique system or hardware identifiers, system or App software, and peripherals.
+\n\n5.2 Any non-personal information, when clubbed with personal information shall be treated as personal information.
+\n\n5.3 The following is the manner in which we collect, use, share and retain non-personal information.
+\n5.3.1 Collection:
+\n5.3.1.1 You agree that the App may collect diagnostic, technical, usage related information, for the usage purposes described below.5.3.2 Usage:
+\n\n5.3.2.1 The above mentioned information is gathered periodically to provide and improve the App and services therein, facilitate the provision of App support and other services to you (if any) and to verify compliance with the terms of this Policy.
+\n\n5.3.3 Sharing:
+\n5.3.3.1 To enable the App partners to improve their software, hardware and services designed for use with the App, we may also provide any such partner with a subset of diagnostic information that is relevant to that partner’s software, hardware and/or services, as long as the diagnostic information is in a form that does not personally identify you.
+\n\n5.3.4 Retention:
+\n5.3.4.1 The information so collected shall be retained only for a limited duration necessary to fulfil the purposes outlined herein unless a longer retention period is required or permitted by law and only for the purposes defined above. Once the purpose is achieved, all information is deleted in a safe and secure mode.
+</string>
+
+    <string name="article6_privacy">6. Location Services:</string>
+    <string name="para6_privacy">6.1 The App, its licensees and agents, may access, collect and analyse your usage of the App and other information related to your location on a regular basis through Bluetooth and Wi-Fi signals and other technologies and data for the performance of the services provided by the App and to help improve the design, functionality, performance, and content of the App. In order to collect geo-location information, the location settings must be enabled on your device. Therefore, in some cases, the App may request that you enable the location settings.
+        \n\n6.2 Except in cases where any specific services requested by you require or involve personal identification, the App collects location data anonymously and in a form that does not personally identify you. By using the App, you agree and consent to transmission, collection, maintenance, processing and use of your location data to provide and improve such services of the App.</string>
+
+    <string name="article7_privacy">7. Cookies:</string>
+    <string name="para7_privacy">7.1 Information collected by cookies and other technologies are treated as non-personal information. However, to the extent that IP addresses or similar identifiers are considered personal information by local law, we treat any information linked to such identifiers as personal information. Similarly, to the extent that non-personal information is combined with personal information, we will treat the combined information as personal information.
+</string>
+
+    <string name="article8_privacy">8. Other Information the App collects:</string>
+    <string name="para8_privacy">8.1 The App also may collect other information about you in ways that the App describe to you or otherwise with your consent. You can choose not to provide us with certain types of information, but doing so may affect your ability to avail and/or use some services.</string>
+
+    <string name="article9_privacy">9. Third Party Apps, Websites and Services:</string>
+    <string name="para9_privacy">9.1 The App may include links to other websites/Apps and other content that links to third party websites. Such websites/Apps are governed by their respective privacy policies, which are out of the App’s control. Use of any information you provide while using a third party website or App through the App, is governed by the privacy policy of the operator of the website / App / operator you are using/ visiting. That policy may differ from that of the App. If you cant find the privacy policy of any of such websites /App via a link from its websites homepage, you should contact the relevant website /App operator directly for more information.</string>
+
+    <string name="article10_privacy">10. Access, Correction and Deletion:</string>
+    <string name="para10_privacy">10.1 The App strives hard to keep its records updated and accurate with your latest information. You shall be responsible to ensure that the information or data you provide from time to time is and shall be correct, current and updated and you have all the rights, permissions and consents to provide such information or data.
+        \n\n10.2You may note that deletion of certain information that is crucial for performance of services by the App or withdrawal of consent may lead to cancellation of your access to the App or your access to certain features and services of the App. Additionally, we may not be able to process your request of correction, updating or deletion, in case the same is not supported by valid documents or data retention is required by the applicable law or law enforcement requests or under any judicial proceedings or it is extremely difficult to implement (such as requests related to backup copies or if a new system is required to process the request or change of technical design) or risks the privacy of other users.</string>
+
+    <string name="article11_privacy">11. Queries and Complaints:</string>
+    <string name="para11_privacy">11.1 We are committed to protect your personal information collected and processed by us and look forward to your continued support for the same. In case of any feedback or concern regarding protection of your personal information, or any privacy-related feedback or concerns you may contact: [partnerit@jio.com]</string>
+
+
+</resources>

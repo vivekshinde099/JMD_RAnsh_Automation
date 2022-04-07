@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/title_home"
+        android:icon="@drawable/ic_round_home_24"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/title_resolutions"
+        android:icon="@drawable/ic_round_language_24"
+        android:title="@string/title_resolutions" />
+    <item
+        android:id="@+id/title_tickets"
+        android:icon="@drawable/ic_round_article_24"
+        android:title="@string/title_tickets" />
+
+
+</menu>

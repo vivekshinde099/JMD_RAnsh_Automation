@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/cat_lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24sp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/help_us_ide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/help_us_ide"
+        android:fontFamily="@font/jiotype_black"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/help_us_ide"
+        android:lineSpacingExtra="4sp" />
+
+    <TextView
+        android:id="@+id/select_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jiotype_bold"
+        android:text="@string/select_from"
+        android:textAppearance="@style/select_from"
+        android:textAlignment="textStart"
+        android:lineSpacingExtra="5sp"
+
+        />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/cat_lin"
+        android:layout_height="match_parent"
+        tools:ignore="UnknownId">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/cat_lin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="24sp"
+        android:id="@+id/recyclerview"/>
+
+    </ScrollView>
+</RelativeLayout>

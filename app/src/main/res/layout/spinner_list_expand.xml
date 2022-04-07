@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:textAlignment="center"
+    android:textSize="@dimen/_13sdp"
+    android:padding="@dimen/_8sdp"
+    android:layout_margin="10dp"
+    android:background="@color/Red"
+    android:fontFamily="@font/jiotype_medium"
+    >
+
+
+</TextView>

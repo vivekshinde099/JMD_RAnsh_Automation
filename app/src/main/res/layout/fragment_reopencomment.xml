@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pouptrytologin"
+    android:background="@color/Transparent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadowfile"
+        app:cardCornerRadius="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/close_popup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_round_close_24"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/modal_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/your_comment"
+                android:fontFamily="@font/jiotype_black"
+                android:textAppearance="@style/modal_title"
+                android:lineSpacingExtra="0sp"
+                android:padding="20dp"
+                android:gravity="center_horizontal|top"
+                />
+
+            <EditText
+                android:id="@+id/reopen_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/Grey"
+                android:textSize="16sp"
+                android:inputType="textMultiLine"
+                android:maxLength="300"
+                android:padding="@dimen/_5sdp"
+                android:gravity="top|left"
+                android:drawableRight="@drawable/ic_round_short_text_24"
+                android:scrollbars="vertical"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:hint="Comment"/>
+
+            <ScrollView
+                android:id="@+id/Scrollviewsrpage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_layout"
+                android:layout_above="@+id/layoutcreateticket"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:background="@drawable/background_stroke"
+                    android:backgroundTint="@color/white"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <ImageView
+                            android:id="@+id/imageattchemnt1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:src="@drawable/ic_baseline_attachment_24"/>
+
+                        <TextView
+                            android:id="@+id/path_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/Black"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/jiotype_medium"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:text="Attachment" />
+
+
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+            <Button
+                android:id="@+id/send_reopenmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/send_message"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:fontFamily="@font/jiotype_medium"
+                android:textSize="16sp"
+                android:background="@drawable/green_button"
+                android:backgroundTint="@color/Green"
+                android:textColor="@color/secondButtonTextcolor"
+                android:textAppearance="@style/btn"
+                android:layout_marginTop="20dp"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Voilet"
+    android:id="@+id/category_frontid"
+    tools:context=".Category_front">
+
+    <LinearLayout
+        android:id="@+id/reclinearlayoutmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/main1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/jiotype_black"
+            android:textStyle="bold"
+            android:text="@string/welcome_page"/>
+
+        <TextView
+            android:id="@+id/main2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jiotype_mediumitalic"
+            android:text="@string/burger_welcom_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/reclinearlayoutmain2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/reclinearlayoutmain"
+    android:layout_above="@id/keyboardcardlayout"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearmain1"
+            android:layout_above="@id/linearmain2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/red_btn_jpos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/red_buton_jpos"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/jiotype_medium"
+                android:autoSizeTextType="uniform"
+                android:padding="@dimen/_7sdp"
+                android:background="@drawable/button_backgrounds"
+                android:backgroundTint="@color/Red"
+                android:layout_margin="5dp"
+
+                />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearmain2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/keyboardcardlayout"
+        android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerview"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/keyboardcardlayout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:elevation="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/category_versiontab"
+        android:layout_centerInParent="true"
+        android:background="@drawable/corners"
+        android:layout_margin="@dimen/_5sdp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_search_24"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+   <TextView
+       android:id="@+id/category_versiontab"
+       android:layout_width="match_parent"
+       android:layout_alignParentBottom="true"
+       android:fontFamily="@font/jiotype_medium"
+       android:textColor="@color/white"
+       android:textAlignment="center"
+       android:text="@string/version_textview"
+       android:textSize="@dimen/_10sdp"
+       android:layout_height="wrap_content"
+       android:textAllCaps="false"
+       android:layout_margin="@dimen/_5sdp"/>
+</RelativeLayout>

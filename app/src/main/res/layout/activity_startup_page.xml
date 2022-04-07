@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Green"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:weightSum="1"
+    android:id="@+id/formlayouttoshow"
+    tools:context=".Startup_page">
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:backgroundTint="#A6000000"
+        android:onClick="backbutton"
+        android:background="@drawable/ic_baseline_arrow_back_ios_24"
+        />
+
+    <LinearLayout
+        android:id="@+id/enternumberlinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/enter_your_"
+        android:layout_width="312dp"
+        android:layout_height="88dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:text="@string/enter_your_"
+        android:fontFamily="@font/jiotype_black"
+        android:textAppearance="@style/enter_your_"
+        android:lineSpacingExtra="0sp"
+        android:layout_weight="0.5"
+        android:gravity="center_vertical"
+        />
+
+        <EditText
+            android:id="@+id/getmobilenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/Black"
+            android:layout_marginStart="24dp"
+            android:hint="Mobile Number"
+            android:textSize="16sp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:backgroundTint="@color/Green"
+            android:maxLength="10"/>
+
+        <View
+            android:id="@+id/active_line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/active_line"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/submitnumberlinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="65dp"
+            android:text="@string/enter_your_otp"
+            android:fontFamily="@font/jiotype_black"
+            android:textAppearance="@style/enter_your_"
+            android:lineSpacingExtra="0sp"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="@string/enter_your_otp"
+            android:fontFamily="@font/jiotype_medium"
+            android:textAppearance="@style/your_code_w"
+            android:gravity="center_vertical"
+            />
+
+        <EditText
+            android:id="@+id/phonenumberenteredbyuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginLeft="24dp"
+            android:fontFamily="@font/jiotype_medium"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter OTP"
+            android:backgroundTint="@color/Green"
+            android:textColor="@color/Black"
+            android:maxLength="6"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/active_line"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/resendcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="16dp"
+            android:text="Resend OTP"
+            android:onClick="resendotp"
+            android:fontFamily="@font/jiotype_medium"
+            android:textAppearance="@style/your_code_w"
+            android:textColor="@color/LightGreen"
+            android:gravity="center_vertical"
+            />
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/jiotype_medium"
+                android:textAppearance="@style/your_code_w"
+                android:textColor="@color/LightGreen"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/msendotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send OTP"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:fontFamily="@font/jiotype_medium"
+        android:textSize="@dimen/_10sdp"
+        android:background="@drawable/green_button"
+        android:backgroundTint="@color/DarkGreen"
+        android:textColor="@color/ButtonTextcolor"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textAppearance="@style/label"
+        />
+    <Button
+        android:id="@+id/verifybutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit OTP"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:fontFamily="@font/jiotype_medium"
+        android:textSize="@dimen/_10sdp"
+        android:background="@drawable/green_button"
+        android:backgroundTint="@color/DarkGreen"
+        android:textColor="@color/ButtonTextcolor"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textAppearance="@style/label"
+        />
+
+        <TextView
+            android:id="@+id/sharedpref1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/sharedpref2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/sharedpref3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/sharedpref4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+
+</RelativeLayout>
+

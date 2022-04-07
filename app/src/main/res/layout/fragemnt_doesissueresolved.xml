@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pouptrytologin"
+    android:background="@drawable/ic_overlay__1_">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadowfile"
+        app:cardCornerRadius="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+<!--            <ImageView-->
+<!--                android:id="@+id/close_popup"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/ic_round_close_24"-->
+<!--                android:layout_gravity="right"/>-->
+
+            <TextView
+                android:id="@+id/modal_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/is_issue_resolved"
+                android:fontFamily="@font/jiotype_black"
+                android:lineSpacingExtra="0sp"
+                android:textSize="24sp"
+                android:textAlignment="textStart"
+                android:padding="20dp"
+                android:textColor="@color/Black"
+                />
+
+
+            <Button
+                android:id="@+id/issue_resolved"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Green"
+                android:text="Yes"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:background="@drawable/green_button"
+                android:textColor="@color/secondButtonTextcolor"
+                />
+            <Button
+                android:id="@+id/issue_notresolved"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:background="@drawable/green_button_stroke"
+                android:textColor="@color/DarkLightGreen"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

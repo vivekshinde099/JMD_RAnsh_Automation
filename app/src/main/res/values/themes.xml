@@ -1,0 +1,147 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Spinner" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Green</item>
+        <item name="colorPrimaryDark">@color/Green</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="PreferenceDialogLight" parent="Base.Theme.MaterialComponents.Dialog.Alert"></style>
+    -----------------------------------------------------------------------------------------------
+
+    <style name="welcome_to">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+    <style name="r_ansh">
+        <item name="android:textSize">40sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="r_ansh">R-Ansh</string>
+
+    <style name="atam_nirbha">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+    <style name="enter_your_">
+
+        <item name="android:textSize">40sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#141414</item>
+
+    </style>
+
+    <style name="input_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#A6000000</item>
+    </style>
+
+    <style name="label">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#08332C</item>
+    </style>
+    <style name="some_id">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+    <style name="btn">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#E8FAF7</item>
+    </style>
+
+    <style name="one_stop_so">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+    <style name="all_your_do">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+    <style name="your_code_w">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+    <style name="you_are_jus">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+    <style name="register_on">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+    <style name="let_s_quick">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+    <style name="upload_scre">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+    <style name="no_worries_">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+    <style name="help_us_ide">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+    <style name="select_from">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+    <style name="modal_title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#141414</item>
+    </style>
+
+
+</resources>
